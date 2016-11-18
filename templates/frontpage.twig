@@ -1,0 +1,26 @@
+{% extends "base.twig" %}
+
+{% block content %}
+    <div class="content-wrapper">
+
+        <section class="page-content">
+            <article class="post-type-{{post.post_type}} row" id="post-{{post.ID}}">
+                <section class="article-content">
+                    <h1 class="article-h1">{{post.title}}</h1>
+                    <div class="article-body">
+                        {{post.content}}
+                    </div>
+                </section>
+            </article>
+        </section>
+
+        <section class="card-row">
+            <div class="row">
+                <div class="post-card large-4 columns"><h1>Card 1</h1></div>
+                <div class="post-card large-4 columns"><h1>Card 2</h1></div>
+                <div class="post-card large-4 columns"><h1>Card 3</h1></div>
+            </div>
+        </section>
+
+    </div><!-- /content-wrapper -->
+{% endblock %}

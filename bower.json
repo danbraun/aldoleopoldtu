@@ -1,0 +1,22 @@
+{
+  "name": "aldoleopoldtu",
+  "description": "Website for ALCTU",
+  "main": "gulpfile.js",
+  "authors": [
+    "Daniel Braun"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "foundation-sites": "^6.2.4",
+    "motion-ui": "~1.2.2"
+  }
+}
